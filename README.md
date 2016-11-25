@@ -12,7 +12,7 @@ for (;;) {
 
 code = infiniteLoopDetector.wrap(code)
 // Can only wrap plain code string, no function or other things, or it will throw
-// There is also a `unwrap` method to restore the code to the previous shape
+// There is also an `unwrap` method to restore the code to the previous shape
 
 try {
   eval(code)
